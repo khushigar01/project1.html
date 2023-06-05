@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            top: 0px;
+            display: block;
+            width: 40%;
+            margin: 0px auto;
+            <!--border: 2px solid green;-->>
+            
+            cursor: pointer;
+            font-style:italic;
+            font-weight: bolder;
+        }
+        body{
+            margin: 10px;
+            padding: 10px;
+            background: url('img.jpg');
+            
+            
+        }
+        
+
+        .left{
+            
+            
+            <!--border: 2px solid yellow;-->>
+            display: inline-block;
+            left: 34px;
+            top: 20px;
+            
+        
+        }
+        .left div{
+            text-align: center;
+            line-height: 19px;
+        }
+        
+        .right{
+            position: absolute;
+            right: 45px;
+            top: 20px;
+            display: inline-block;
+            <!--border: 2px solid red;-->
+            font-style: italic;
+
+
+        }
+
+        .navbar li{
+            display: inline-block;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            text-decoration: underline;
+            color: grey;
+        }
+        .left img{
+            width: 150px;
+            background-color: rgb(49, 31, 5);
+        }
+            
+        .btn{
+            background-color: rgb(229, 175, 136);
+            font-size: 15px;
+            padding: 6px 5px;
+            border: 2px solid whitesmoke;
+            border-radius: 10px;
+            cursor: pointer;
+            font-style: italic;
+        }
+        .btn :hover{
+            background-color: grey;
+        }
+        .container{
+            text-align: center;
+            border: 2px solid red;
+            margin: 5px 9px;
+            padding: 82px 20px;
+            width: 36%;
+            border-radius: 12px;
+            color:rgb(155, 150, 14);
+            font-style: italic;
+            font-displ;
+        }
+        .btn{
+            text-align: center;
+            padding: 0px 0px;
+            font-style: normal;
+            background-color: white;
+            margin: 2px;
+        }
+        .form{
+            text-align: center;
+            margin: 6px 9px;
+            padding: 2px ;
+            margin: 3px auto;
+            
+            border-radius: 18px;
+            
+            
+
+        }
+        
+        
+    
+        
+      
+     
+        
+
+        
+        
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="khushi.jpg" alt="">
+            
+        </div>
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"></a>Home</li>
+                <li><a href="#"></a>About us</li>
+                <li><a href="#"></a>Fitness Calculator</li>
+                <li><a href="#"></a>Contact</li>
+
+
+            </ul>
+
+        </div>
+        <!--right box for buttons-->
+        <div class="right">
+            <button class="btn">Call us now</button><button class="btn">Email Us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h2>join the best gym of kanpur now</h2>
+        <form action="noaction.php"></form>
+            <div class="form">
+                 <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="enter your name">
+           </div>
+           <div class="form group">
+            <input type="text" name="" placeholder="enter your name">
+           </div>
+           <div class="form group">
+            <input type="text" name="" placeholder="enter your name">
+            </div>
+            <button class="btn">submit</button>
+
+
+    </div>
+    
+</body>
+</html>
